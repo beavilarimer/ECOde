@@ -1,0 +1,160 @@
+*{
+  margin:0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-align: center;
+  font-family: 'Raleway';
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.back {
+  padding: 120px 20px 120px 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Efflorescence_verte_3_Cyanobacteria.JPG");
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  font-size: 125%;
+  margin-bottom: 20px;
+}
+
+.services1 {
+  width: 298px;
+  border: 1px solid #AAEFDF;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float left;
+  display: inline-block;
+}
+
+
+
+.services1 > p {
+  font-size: 16px
+  font-family: 'Raleway';
+  color: #636363;
+  max-width: 250px
+
+}
+
+.services {
+  width: 1000px;
+  margin: 0 auto;
+}
+.services22{
+  display: flex;
+}
+.services2> p {
+  font-size: 16px;
+  font-family: 'Raleway';
+  color: #636363;
+  margin: 30px 40p
+}
+
+.services2 {
+  flex: 1;
+}
+.image {
+  max-width: 300px
+}
+
+.info {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Raleway';
+  font-weight: lighter;
+  color: 	black;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+  background-color:  #AAEFDF;
+}
+
+
+
+#door {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Roboto';
+  background-color:#AAEFDF;
+  color: #ffff
+  padding: 10px 0px;
+  margin: 0 -6px;
+}
+
+.img {
+  width: 120px;
+  height: 100px
+  margin: 15px 0 0 0;
+
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-shadow: 1px 1.5px 	black;
+  letter-spacing: 2px;
+}
+
+/* fun styling */
+.services33 {
+  display: flex;
+}
+
+.services3 {
+  flex: 1;
+}
+
+.services3 {
+  font-family: 'Raleway';
+  border-radius: 25px;
+  background: #64D013;
+  padding: 50px;
+  width: 200px;
+  height: 170px;
+  margin: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#logo{
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+
+.cars {
+  font-family: 'Raleway';
+  font-size: 25px;
+  padding: 10px 0px;
+  margin: 0 -6px;
+}
+
+.fun{
+  padding:170px 20px 170px 20px;
+  background-image: url("https://taronga.org.au/sites/tarongazoo/files/styles/standard-content-image/public/adopt-an-animal-og.jpg");
+  background-size: cover;
+  /* color: #ffffff; */
+  font-size: 25px;
+  font-family: 'Raleway', cursive;
+  font-weight: 100;
+  color: white;
+  padding-left: 100px;
+}
